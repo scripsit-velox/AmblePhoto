@@ -1,0 +1,111 @@
+/* 
+https://colorhunt.co/palette/150168
+#17223b 23, 34, 59
+#263859 38, 56, 89
+#6b778d 107, 119, 141
+#ff6768 255, 103, 103
+
+/* body {
+   background: url("../images/bg/P2060442.jpg");
+   background-size: cover;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+} */
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   color: #17223b;
+}
+
+#header {
+   background: url("../images/bg/P2060442.jpg");
+   background-size: cover;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   border-radius: 0px;
+}
+
+#page-break-1 {
+   background: url("../images/large/P3040901large.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 0px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 103, 103, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   color: rgba(255,255,255,0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+   color: #ff6768;
+}
+
+.navbar-dark .navbar-toggler {
+   border-color: transparent;
+}
+
+#header-title {
+   color: #fff;
+   font-weight: 500;
+}
+
+.navbar.bg-dark {
+   background-color: #263859!important;
+}
+.navbar .nav-item.active a.nav-link {
+   color: #ff6768;
+}
+
+/* button.close {
+   left: 95%;
+   color: #fff;
+   text-shadow: none;
+   font-size: 2.5rem;
+} */
+
+.modal-header {
+   border-bottom: none;
+}
+
+.modal-footer {
+   border-top: none;
+}
+
+button.close:hover {
+   color: #ff6768;
+}
+
+.modal-header .close {
+   padding: 1rem 1rem;
+   margin: -.75rem -1rem -.75rem auto;
+   }
+
+a {
+   color: #263859;
+}
+
+a:hover {
+   color: #ff6768;
+}
+
+a.email-link {
+   color: #ff6768;
+}
+
+a.email-link:hover {
+   color: #6b778d;
+}
+
+.about-home {
+   font-size: 1.2rem;
+}
